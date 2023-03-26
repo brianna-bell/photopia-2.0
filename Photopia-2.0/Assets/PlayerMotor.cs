@@ -46,8 +46,8 @@ public class PlayerMotor : MonoBehaviour
 	private float minimumX = -360F;
 	private float maximumX = 360F;
 
-	private float minimumY = -60F;
-	private float maximumY = 60F;
+	private float minimumY = -90f;
+	private float maximumY = 130f;
 
 	private float rotationX = 0F;
 	private float rotationY = 0F;

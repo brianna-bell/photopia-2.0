@@ -16,10 +16,12 @@ public class CameraMotion : MonoBehaviour
     //private int roadAdded = 0;
     //private float lookSensitivity = 3f;
     private PlayerMotor motor;
-    
+    public GameObject car;
+
     private void Start()
     {
         controller = gameObject.AddComponent<CharacterController>();
+        controller.radius = 0.0f;
         distanceTraveled = 0.0f;
         //new
         motor = GetComponent<PlayerMotor>();
